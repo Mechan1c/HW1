@@ -1,0 +1,469 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>34/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Mar 05 15:36:01 EET 2016</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (150 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNG.ConditionalTests.test1()'><b>test1</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.test2()'><b>test2</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.test3()'><b>test3</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.test4()'><b>test4</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testFindGrade102()'><b>testFindGrade102</b><br>Test class: testNG.ConditionalTests</td>
+<td><div><pre>java.lang.IllegalArgumentException
+	at hw_1_1conditional.T5Grade.findGrade(T5Grade.java:32)
+	at testNG.ConditionalTests.testFindGrade102(ConditionalTests.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div><a href='#' onClick='toggleBox("stack-trace234698513", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace234698513'><pre>java.lang.IllegalArgumentException
+	at hw_1_1conditional.T5Grade.findGrade(T5Grade.java:32)
+	at testNG.ConditionalTests.testFindGrade102(ConditionalTests.java:188)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testFindGradeA1()'><b>testFindGradeA1</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testFindGradeA2()'><b>testFindGradeA2</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testFindGradeB1()'><b>testFindGradeB1</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testFindGradeB2()'><b>testFindGradeB2</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testFindGradeC1()'><b>testFindGradeC1</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testFindGradeC2()'><b>testFindGradeC2</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testFindGradeD1()'><b>testFindGradeD1</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testFindGradeD2()'><b>testFindGradeD2</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testFindGradeE1()'><b>testFindGradeE1</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testFindGradeE2()'><b>testFindGradeE2</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testFindGradeF1()'><b>testFindGradeF1</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testFindGradeF2()'><b>testFindGradeF2</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testFindGradeMinus()'><b>testFindGradeMinus</b><br>Test class: testNG.ConditionalTests</td>
+<td><div><pre>java.lang.IllegalArgumentException
+	at hw_1_1conditional.T5Grade.findGrade(T5Grade.java:32)
+	at testNG.ConditionalTests.testFindGradeMinus(ConditionalTests.java:193)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1837760739", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1837760739'><pre>java.lang.IllegalArgumentException
+	at hw_1_1conditional.T5Grade.findGrade(T5Grade.java:32)
+	at testNG.ConditionalTests.testFindGradeMinus(ConditionalTests.java:193)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testMult()'><b>testMult</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testSum()'><b>testSum</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testSumm()'><b>testSumm</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testSummMMM()'><b>testSummMMM</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testSummMMP()'><b>testSummMMP</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testSummMPP()'><b>testSummMPP</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testSummMinus()'><b>testSummMinus</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testSummMult()'><b>testSummMult</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testSummPMM()'><b>testSummPMM</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testSummPPM()'><b>testSummPPM</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testSummPPP()'><b>testSummPPP</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testSummSumm()'><b>testSummSumm</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testSummZZ3()'><b>testSummZZ3</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testSummZZZ()'><b>testSummZZZ</b><br>Test class: testNG.ConditionalTests</td>
+<td><div><pre>java.lang.IllegalArgumentException
+	at hw_1_1conditional.T4CountStm.max(T4CountStm.java:39)
+	at testNG.ConditionalTests.testSummZZZ(ConditionalTests.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div><a href='#' onClick='toggleBox("stack-trace876563773", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace876563773'><pre>java.lang.IllegalArgumentException
+	at hw_1_1conditional.T4CountStm.max(T4CountStm.java:39)
+	at testNG.ConditionalTests.testSummZZZ(ConditionalTests.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testSummZero()'><b>testSummZero</b><br>Test class: testNG.ConditionalTests</td>
+<td></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+<tr>
+<td title='testNG.ConditionalTests.testZero()'><b>testZero</b><br>Test class: testNG.ConditionalTests</td>
+<td><div><pre>java.lang.IllegalArgumentException
+	at hw_1_1conditional.T2FindFourth.count1(T2FindFourth.java:42)
+	at testNG.ConditionalTests.testZero(ConditionalTests.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1476394199", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1476394199'><pre>java.lang.IllegalArgumentException
+	at hw_1_1conditional.T2FindFourth.count1(T2FindFourth.java:42)
+	at testNG.ConditionalTests.testZero(ConditionalTests.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+</pre></div></td>
+<td>0</td>
+<td>testNG.ConditionalTests@3930015a</td></tr>
+</table><p>
+</body>
+</html>

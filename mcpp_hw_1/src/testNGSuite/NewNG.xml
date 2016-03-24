@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll" >
+
+ <test name="test">
+  <classes>
+   <class name="testNG.ArrayTest" />
+   <class name="testNG.ConditionalTests" />
+   <class name="testNG.CyclesTest" />
+   <class name="testNG.FunctionsTest" /> 
+  </classes>
+ </test>
+
+</suite>

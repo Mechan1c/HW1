@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>mcpp_hw_1</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/lesson4/Persons.java</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Users/Mechanic/AppData/Roaming/Skype/My%20Skype%20Received%20Files/Persons.java</locationURI>
+		</link>
+		<link>
+			<name>src/lesson4/SortByAge.java</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Users/Mechanic/AppData/Roaming/Skype/My%20Skype%20Received%20Files/SortByAge.java</locationURI>
+		</link>
+		<link>
+			<name>src/lesson4/SortByFNname.java</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Users/Mechanic/AppData/Roaming/Skype/My%20Skype%20Received%20Files/SortByFNname.java</locationURI>
+		</link>
+		<link>
+			<name>src/lesson4/SortByID.java</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Users/Mechanic/AppData/Roaming/Skype/My%20Skype%20Received%20Files/SortByID.java</locationURI>
+		</link>
+		<link>
+			<name>src/lesson4/SortByLNname.java</name>
+			<type>1</type>
+			<locationURI>PARENT-3-PROJECT_LOC/Users/Mechanic/AppData/Roaming/Skype/My%20Skype%20Received%20Files/SortByLNname.java</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

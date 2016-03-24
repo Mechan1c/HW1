@@ -1,0 +1,2388 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestAll">
+              <span class="suite-name border-passed">TestAll</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestAll">
+                    <span>C:\eclipse\worksp\mcpp_hw_1\TestNG\NewNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestAll">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestAll">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestAll">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestAll">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestAll">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestAll">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">107 methods,   107 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestAll" class="hide-methods passed suite-TestAll"> (hide)</a> <!-- hide-methods passed suite-TestAll -->
+                      <a href="#" panel-name="suite-TestAll" class="show-methods passed suite-TestAll"> (show)</a> <!-- show-methods passed suite-TestAll -->
+                    </span>
+                    <div class="method-list-content passed suite-TestAll">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="test3">test3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="test4">test4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testBinSqr20">testBinSqr20</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testBinSqr21">testBinSqr21</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testBinarySqr0">testBinarySqr0</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testBinarySqr1">testBinarySqr1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testBinarySqr16">testBinarySqr16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testBinarySqr7">testBinarySqr7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testCheckPrimeC">testCheckPrimeC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testCheckPrimeCM">testCheckPrimeCM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testCheckPrimeP">testCheckPrimeP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testCheckPrimeP1">testCheckPrimeP1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testCheckPrimePM">testCheckPrimePM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testCheckPrimeZ">testCheckPrimeZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertNS0">testConvertNS0</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertNS10">testConvertNS10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertNS4">testConvertNS4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertNS40">testConvertNS40</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertNS400">testConvertNS400</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertNS405">testConvertNS405</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertNS450">testConvertNS450</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertNS459">testConvertNS459</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertNS47">testConvertNS47</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertNS721">testConvertNS721</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertNS999">testConvertNS999</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertSN0">testConvertSN0</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertSN4">testConvertSN4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertSN40">testConvertSN40</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertSN400">testConvertSN400</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertSN450">testConvertSN450</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertSN459">testConvertSN459</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testConvertSN47">testConvertSN47</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testFactorial0">testFactorial0</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testFactorial1">testFactorial1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testFactorial200">testFactorial200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testFactorial5">testFactorial5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testFactorialm">testFactorialm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testFindGrade102">testFindGrade102</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testFindGradeA1">testFindGradeA1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testFindGradeA2">testFindGradeA2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testFindGradeB1">testFindGradeB1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testFindGradeB2">testFindGradeB2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testFindGradeC1">testFindGradeC1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testFindGradeC2">testFindGradeC2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testFindGradeD1">testFindGradeD1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testFindGradeD2">testFindGradeD2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testFindGradeE1">testFindGradeE1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testFindGradeE2">testFindGradeE2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testFindGradeF1">testFindGradeF1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testFindGradeF2">testFindGradeF2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testFindGradeMinus">testFindGradeMinus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testFindQuantity">testFindQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testFindSum">testFindSum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ArrayTest" hash-for-method="testMaxIndex0">testMaxIndex0</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ArrayTest" hash-for-method="testMaxIndex2">testMaxIndex2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ArrayTest" hash-for-method="testMaxIndex4">testMaxIndex4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testMeasure">testMeasure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testMeasure0">testMeasure0</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testMeasure1">testMeasure1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testMeasure1m">testMeasure1m</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ArrayTest" hash-for-method="testMinIndex0">testMinIndex0</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ArrayTest" hash-for-method="testMinIndex2">testMinIndex2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ArrayTest" hash-for-method="testMinIndex4">testMinIndex4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testMult">testMult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testRevrs1">testRevrs1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testRevrs2">testRevrs2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testSelectSqr0">testSelectSqr0</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testSelectSqr1">testSelectSqr1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testSum">testSum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testSumNum1">testSumNum1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testSumNum1_0">testSumNum1_0</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testSumNum1m">testSumNum1m</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testSumNum2">testSumNum2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testSumNum2_0">testSumNum2_0</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testSumNum2m">testSumNum2m</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testSumm">testSumm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testSummMMM">testSummMMM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testSummMMP">testSummMMP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testSummMPP">testSummMPP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testSummMinus">testSummMinus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testSummMult">testSummMult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testSummPMM">testSummPMM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testSummPPM">testSummPPM</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testSummPPP">testSummPPP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testSummSumm">testSummSumm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testSummZZ3">testSummZZ3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testSummZZZ">testSummZZZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testSummZero">testSummZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testToName">testToName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.FunctionsTest" hash-for-method="testToName2">testToName2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ConditionalTests" hash-for-method="testZero">testZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ArrayTest" hash-for-method="testfindMax1">testfindMax1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ArrayTest" hash-for-method="testfindMax2">testfindMax2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ArrayTest" hash-for-method="testfindMax3">testfindMax3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ArrayTest" hash-for-method="testfindMax4">testfindMax4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ArrayTest" hash-for-method="testfindMin1">testfindMin1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ArrayTest" hash-for-method="testfindMin2">testfindMin2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ArrayTest" hash-for-method="testfindMin3">testfindMin3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.ArrayTest" hash-for-method="testfindMin4">testfindMin4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testtestBinSqr216">testtestBinSqr216</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testtestBinSqr27">testtestBinSqr27</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testtestBinSqr2_15">testtestBinSqr2_15</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testtestBinSqr2_17">testtestBinSqr2_17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testtestSelectSqr16">testtestSelectSqr16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="testNG.CyclesTest" hash-for-method="testtestSelectSqr7">testtestSelectSqr7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestAll -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestAll" class="panel TestAll">
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG.ConditionalTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2">
+                  </a> <!-- test2 -->
+                  <span class="method-name">test2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test3">
+                  </a> <!-- test3 -->
+                  <span class="method-name">test3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test4">
+                  </a> <!-- test4 -->
+                  <span class="method-name">test4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindGrade102">
+                  </a> <!-- testFindGrade102 -->
+                  <span class="method-name">testFindGrade102</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindGradeA1">
+                  </a> <!-- testFindGradeA1 -->
+                  <span class="method-name">testFindGradeA1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindGradeA2">
+                  </a> <!-- testFindGradeA2 -->
+                  <span class="method-name">testFindGradeA2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindGradeB1">
+                  </a> <!-- testFindGradeB1 -->
+                  <span class="method-name">testFindGradeB1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindGradeB2">
+                  </a> <!-- testFindGradeB2 -->
+                  <span class="method-name">testFindGradeB2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindGradeC1">
+                  </a> <!-- testFindGradeC1 -->
+                  <span class="method-name">testFindGradeC1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindGradeC2">
+                  </a> <!-- testFindGradeC2 -->
+                  <span class="method-name">testFindGradeC2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindGradeD1">
+                  </a> <!-- testFindGradeD1 -->
+                  <span class="method-name">testFindGradeD1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindGradeD2">
+                  </a> <!-- testFindGradeD2 -->
+                  <span class="method-name">testFindGradeD2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindGradeE1">
+                  </a> <!-- testFindGradeE1 -->
+                  <span class="method-name">testFindGradeE1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindGradeE2">
+                  </a> <!-- testFindGradeE2 -->
+                  <span class="method-name">testFindGradeE2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindGradeF1">
+                  </a> <!-- testFindGradeF1 -->
+                  <span class="method-name">testFindGradeF1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindGradeF2">
+                  </a> <!-- testFindGradeF2 -->
+                  <span class="method-name">testFindGradeF2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindGradeMinus">
+                  </a> <!-- testFindGradeMinus -->
+                  <span class="method-name">testFindGradeMinus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMult">
+                  </a> <!-- testMult -->
+                  <span class="method-name">testMult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSum">
+                  </a> <!-- testSum -->
+                  <span class="method-name">testSum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSumm">
+                  </a> <!-- testSumm -->
+                  <span class="method-name">testSumm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSummMMM">
+                  </a> <!-- testSummMMM -->
+                  <span class="method-name">testSummMMM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSummMMP">
+                  </a> <!-- testSummMMP -->
+                  <span class="method-name">testSummMMP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSummMPP">
+                  </a> <!-- testSummMPP -->
+                  <span class="method-name">testSummMPP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSummMinus">
+                  </a> <!-- testSummMinus -->
+                  <span class="method-name">testSummMinus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSummMult">
+                  </a> <!-- testSummMult -->
+                  <span class="method-name">testSummMult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSummPMM">
+                  </a> <!-- testSummPMM -->
+                  <span class="method-name">testSummPMM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSummPPM">
+                  </a> <!-- testSummPPM -->
+                  <span class="method-name">testSummPPM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSummPPP">
+                  </a> <!-- testSummPPP -->
+                  <span class="method-name">testSummPPP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSummSumm">
+                  </a> <!-- testSummSumm -->
+                  <span class="method-name">testSummSumm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSummZZ3">
+                  </a> <!-- testSummZZ3 -->
+                  <span class="method-name">testSummZZ3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSummZZZ">
+                  </a> <!-- testSummZZZ -->
+                  <span class="method-name">testSummZZZ</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSummZero">
+                  </a> <!-- testSummZero -->
+                  <span class="method-name">testSummZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testZero">
+                  </a> <!-- testZero -->
+                  <span class="method-name">testZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG.CyclesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBinSqr20">
+                  </a> <!-- testBinSqr20 -->
+                  <span class="method-name">testBinSqr20</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBinSqr21">
+                  </a> <!-- testBinSqr21 -->
+                  <span class="method-name">testBinSqr21</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBinarySqr0">
+                  </a> <!-- testBinarySqr0 -->
+                  <span class="method-name">testBinarySqr0</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBinarySqr1">
+                  </a> <!-- testBinarySqr1 -->
+                  <span class="method-name">testBinarySqr1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBinarySqr16">
+                  </a> <!-- testBinarySqr16 -->
+                  <span class="method-name">testBinarySqr16</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBinarySqr7">
+                  </a> <!-- testBinarySqr7 -->
+                  <span class="method-name">testBinarySqr7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckPrimeC">
+                  </a> <!-- testCheckPrimeC -->
+                  <span class="method-name">testCheckPrimeC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckPrimeCM">
+                  </a> <!-- testCheckPrimeCM -->
+                  <span class="method-name">testCheckPrimeCM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckPrimeP">
+                  </a> <!-- testCheckPrimeP -->
+                  <span class="method-name">testCheckPrimeP</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckPrimeP1">
+                  </a> <!-- testCheckPrimeP1 -->
+                  <span class="method-name">testCheckPrimeP1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckPrimePM">
+                  </a> <!-- testCheckPrimePM -->
+                  <span class="method-name">testCheckPrimePM</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckPrimeZ">
+                  </a> <!-- testCheckPrimeZ -->
+                  <span class="method-name">testCheckPrimeZ</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFactorial0">
+                  </a> <!-- testFactorial0 -->
+                  <span class="method-name">testFactorial0</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFactorial1">
+                  </a> <!-- testFactorial1 -->
+                  <span class="method-name">testFactorial1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFactorial200">
+                  </a> <!-- testFactorial200 -->
+                  <span class="method-name">testFactorial200</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFactorial5">
+                  </a> <!-- testFactorial5 -->
+                  <span class="method-name">testFactorial5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFactorialm">
+                  </a> <!-- testFactorialm -->
+                  <span class="method-name">testFactorialm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindQuantity">
+                  </a> <!-- testFindQuantity -->
+                  <span class="method-name">testFindQuantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindSum">
+                  </a> <!-- testFindSum -->
+                  <span class="method-name">testFindSum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRevrs1">
+                  </a> <!-- testRevrs1 -->
+                  <span class="method-name">testRevrs1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRevrs2">
+                  </a> <!-- testRevrs2 -->
+                  <span class="method-name">testRevrs2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectSqr0">
+                  </a> <!-- testSelectSqr0 -->
+                  <span class="method-name">testSelectSqr0</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectSqr1">
+                  </a> <!-- testSelectSqr1 -->
+                  <span class="method-name">testSelectSqr1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSumNum1">
+                  </a> <!-- testSumNum1 -->
+                  <span class="method-name">testSumNum1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSumNum1_0">
+                  </a> <!-- testSumNum1_0 -->
+                  <span class="method-name">testSumNum1_0</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSumNum1m">
+                  </a> <!-- testSumNum1m -->
+                  <span class="method-name">testSumNum1m</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSumNum2">
+                  </a> <!-- testSumNum2 -->
+                  <span class="method-name">testSumNum2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSumNum2_0">
+                  </a> <!-- testSumNum2_0 -->
+                  <span class="method-name">testSumNum2_0</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSumNum2m">
+                  </a> <!-- testSumNum2m -->
+                  <span class="method-name">testSumNum2m</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testtestBinSqr216">
+                  </a> <!-- testtestBinSqr216 -->
+                  <span class="method-name">testtestBinSqr216</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testtestBinSqr27">
+                  </a> <!-- testtestBinSqr27 -->
+                  <span class="method-name">testtestBinSqr27</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testtestBinSqr2_15">
+                  </a> <!-- testtestBinSqr2_15 -->
+                  <span class="method-name">testtestBinSqr2_15</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testtestBinSqr2_17">
+                  </a> <!-- testtestBinSqr2_17 -->
+                  <span class="method-name">testtestBinSqr2_17</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testtestSelectSqr16">
+                  </a> <!-- testtestSelectSqr16 -->
+                  <span class="method-name">testtestSelectSqr16</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testtestSelectSqr7">
+                  </a> <!-- testtestSelectSqr7 -->
+                  <span class="method-name">testtestSelectSqr7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG.ArrayTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMaxIndex0">
+                  </a> <!-- testMaxIndex0 -->
+                  <span class="method-name">testMaxIndex0</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMaxIndex2">
+                  </a> <!-- testMaxIndex2 -->
+                  <span class="method-name">testMaxIndex2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMaxIndex4">
+                  </a> <!-- testMaxIndex4 -->
+                  <span class="method-name">testMaxIndex4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMinIndex0">
+                  </a> <!-- testMinIndex0 -->
+                  <span class="method-name">testMinIndex0</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMinIndex2">
+                  </a> <!-- testMinIndex2 -->
+                  <span class="method-name">testMinIndex2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMinIndex4">
+                  </a> <!-- testMinIndex4 -->
+                  <span class="method-name">testMinIndex4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testfindMax1">
+                  </a> <!-- testfindMax1 -->
+                  <span class="method-name">testfindMax1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testfindMax2">
+                  </a> <!-- testfindMax2 -->
+                  <span class="method-name">testfindMax2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testfindMax3">
+                  </a> <!-- testfindMax3 -->
+                  <span class="method-name">testfindMax3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testfindMax4">
+                  </a> <!-- testfindMax4 -->
+                  <span class="method-name">testfindMax4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testfindMin1">
+                  </a> <!-- testfindMin1 -->
+                  <span class="method-name">testfindMin1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testfindMin2">
+                  </a> <!-- testfindMin2 -->
+                  <span class="method-name">testfindMin2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testfindMin3">
+                  </a> <!-- testfindMin3 -->
+                  <span class="method-name">testfindMin3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testfindMin4">
+                  </a> <!-- testfindMin4 -->
+                  <span class="method-name">testfindMin4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testNG.FunctionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertNS0">
+                  </a> <!-- testConvertNS0 -->
+                  <span class="method-name">testConvertNS0</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertNS10">
+                  </a> <!-- testConvertNS10 -->
+                  <span class="method-name">testConvertNS10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertNS4">
+                  </a> <!-- testConvertNS4 -->
+                  <span class="method-name">testConvertNS4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertNS40">
+                  </a> <!-- testConvertNS40 -->
+                  <span class="method-name">testConvertNS40</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertNS400">
+                  </a> <!-- testConvertNS400 -->
+                  <span class="method-name">testConvertNS400</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertNS405">
+                  </a> <!-- testConvertNS405 -->
+                  <span class="method-name">testConvertNS405</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertNS450">
+                  </a> <!-- testConvertNS450 -->
+                  <span class="method-name">testConvertNS450</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertNS459">
+                  </a> <!-- testConvertNS459 -->
+                  <span class="method-name">testConvertNS459</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertNS47">
+                  </a> <!-- testConvertNS47 -->
+                  <span class="method-name">testConvertNS47</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertNS721">
+                  </a> <!-- testConvertNS721 -->
+                  <span class="method-name">testConvertNS721</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertNS999">
+                  </a> <!-- testConvertNS999 -->
+                  <span class="method-name">testConvertNS999</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertSN0">
+                  </a> <!-- testConvertSN0 -->
+                  <span class="method-name">testConvertSN0</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertSN4">
+                  </a> <!-- testConvertSN4 -->
+                  <span class="method-name">testConvertSN4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertSN40">
+                  </a> <!-- testConvertSN40 -->
+                  <span class="method-name">testConvertSN40</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertSN400">
+                  </a> <!-- testConvertSN400 -->
+                  <span class="method-name">testConvertSN400</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertSN450">
+                  </a> <!-- testConvertSN450 -->
+                  <span class="method-name">testConvertSN450</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertSN459">
+                  </a> <!-- testConvertSN459 -->
+                  <span class="method-name">testConvertSN459</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertSN47">
+                  </a> <!-- testConvertSN47 -->
+                  <span class="method-name">testConvertSN47</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMeasure">
+                  </a> <!-- testMeasure -->
+                  <span class="method-name">testMeasure</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMeasure0">
+                  </a> <!-- testMeasure0 -->
+                  <span class="method-name">testMeasure0</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMeasure1">
+                  </a> <!-- testMeasure1 -->
+                  <span class="method-name">testMeasure1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMeasure1m">
+                  </a> <!-- testMeasure1m -->
+                  <span class="method-name">testMeasure1m</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToName">
+                  </a> <!-- testToName -->
+                  <span class="method-name">testToName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToName2">
+                  </a> <!-- testToName2 -->
+                  <span class="method-name">testToName2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+        </div> <!-- panel TestAll -->
+        <div panel-name="test-xml-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\eclipse\worksp\mcpp_hw_1\TestNG\NewNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestAll&quot;&gt;
+  &lt;test name=&quot;test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testNG.ArrayTest&quot;/&gt;
+      &lt;class name=&quot;testNG.ConditionalTests&quot;/&gt;
+      &lt;class name=&quot;testNG.CyclesTest&quot;/&gt;
+      &lt;class name=&quot;testNG.FunctionsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test --&gt;
+&lt;/suite&gt; &lt;!-- TestAll --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestAll');
+function tableData_TestAll() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(107);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMaxIndex0')
+data.setCell(0, 2, 'testNG.ArrayTest')
+data.setCell(0, 3, 15);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testBinarySqr16')
+data.setCell(1, 2, 'testNG.CyclesTest')
+data.setCell(1, 3, 9);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testConvertSN0')
+data.setCell(2, 2, 'testNG.FunctionsTest')
+data.setCell(2, 3, 5);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testCheckPrimeC')
+data.setCell(3, 2, 'testNG.CyclesTest')
+data.setCell(3, 3, 4);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testMinIndex0')
+data.setCell(4, 2, 'testNG.ArrayTest')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testConvertSN47')
+data.setCell(5, 2, 'testNG.FunctionsTest')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testConvertSN450')
+data.setCell(6, 2, 'testNG.FunctionsTest')
+data.setCell(6, 3, 3);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testMeasure')
+data.setCell(7, 2, 'testNG.FunctionsTest')
+data.setCell(7, 3, 3);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testConvertSN459')
+data.setCell(8, 2, 'testNG.FunctionsTest')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testFindGrade102')
+data.setCell(9, 2, 'testNG.ConditionalTests')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testFactorial0')
+data.setCell(10, 2, 'testNG.CyclesTest')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testFindGradeC1')
+data.setCell(11, 2, 'testNG.ConditionalTests')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testFindQuantity')
+data.setCell(12, 2, 'testNG.CyclesTest')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSummZZ3')
+data.setCell(13, 2, 'testNG.ConditionalTests')
+data.setCell(13, 3, 2);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testfindMax1')
+data.setCell(14, 2, 'testNG.ArrayTest')
+data.setCell(14, 3, 2);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testBinSqr20')
+data.setCell(15, 2, 'testNG.CyclesTest')
+data.setCell(15, 3, 2);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testConvertSN400')
+data.setCell(16, 2, 'testNG.FunctionsTest')
+data.setCell(16, 3, 2);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test1')
+data.setCell(17, 2, 'testNG.ConditionalTests')
+data.setCell(17, 3, 2);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testBinarySqr1')
+data.setCell(18, 2, 'testNG.CyclesTest')
+data.setCell(18, 3, 2);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testConvertNS459')
+data.setCell(19, 2, 'testNG.FunctionsTest')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testFactorialm')
+data.setCell(20, 2, 'testNG.CyclesTest')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testMult')
+data.setCell(21, 2, 'testNG.ConditionalTests')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testMeasure0')
+data.setCell(22, 2, 'testNG.FunctionsTest')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testfindMin2')
+data.setCell(23, 2, 'testNG.ArrayTest')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testFindGradeC2')
+data.setCell(24, 2, 'testNG.ConditionalTests')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testfindMin3')
+data.setCell(25, 2, 'testNG.ArrayTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testFactorial200')
+data.setCell(26, 2, 'testNG.CyclesTest')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testMinIndex4')
+data.setCell(27, 2, 'testNG.ArrayTest')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'test4')
+data.setCell(28, 2, 'testNG.ConditionalTests')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testBinarySqr0')
+data.setCell(29, 2, 'testNG.CyclesTest')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testMaxIndex2')
+data.setCell(30, 2, 'testNG.ArrayTest')
+data.setCell(30, 3, 1);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testFindGradeD2')
+data.setCell(31, 2, 'testNG.ConditionalTests')
+data.setCell(31, 3, 1);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testConvertSN40')
+data.setCell(32, 2, 'testNG.FunctionsTest')
+data.setCell(32, 3, 1);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testFindGradeA1')
+data.setCell(33, 2, 'testNG.ConditionalTests')
+data.setCell(33, 3, 1);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testFindGradeMinus')
+data.setCell(34, 2, 'testNG.ConditionalTests')
+data.setCell(34, 3, 1);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testCheckPrimeCM')
+data.setCell(35, 2, 'testNG.CyclesTest')
+data.setCell(35, 3, 1);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testFindGradeB2')
+data.setCell(36, 2, 'testNG.ConditionalTests')
+data.setCell(36, 3, 1);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testfindMin4')
+data.setCell(37, 2, 'testNG.ArrayTest')
+data.setCell(37, 3, 1);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testFactorial1')
+data.setCell(38, 2, 'testNG.CyclesTest')
+data.setCell(38, 3, 1);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testConvertNS47')
+data.setCell(39, 2, 'testNG.FunctionsTest')
+data.setCell(39, 3, 1);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testMaxIndex4')
+data.setCell(40, 2, 'testNG.ArrayTest')
+data.setCell(40, 3, 1);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testRevrs1')
+data.setCell(41, 2, 'testNG.CyclesTest')
+data.setCell(41, 3, 1);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testtestSelectSqr16')
+data.setCell(42, 2, 'testNG.CyclesTest')
+data.setCell(42, 3, 1);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testCheckPrimeP1')
+data.setCell(43, 2, 'testNG.CyclesTest')
+data.setCell(43, 3, 1);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testSummMMP')
+data.setCell(44, 2, 'testNG.ConditionalTests')
+data.setCell(44, 3, 1);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testSum')
+data.setCell(45, 2, 'testNG.ConditionalTests')
+data.setCell(45, 3, 1);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testConvertNS405')
+data.setCell(46, 2, 'testNG.FunctionsTest')
+data.setCell(46, 3, 1);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testSummZZZ')
+data.setCell(47, 2, 'testNG.ConditionalTests')
+data.setCell(47, 3, 1);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testtestBinSqr2_17')
+data.setCell(48, 2, 'testNG.CyclesTest')
+data.setCell(48, 3, 1);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testConvertNS999')
+data.setCell(49, 2, 'testNG.FunctionsTest')
+data.setCell(49, 3, 1);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testFindSum')
+data.setCell(50, 2, 'testNG.CyclesTest')
+data.setCell(50, 3, 1);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testConvertNS0')
+data.setCell(51, 2, 'testNG.FunctionsTest')
+data.setCell(51, 3, 1);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testFindGradeD1')
+data.setCell(52, 2, 'testNG.ConditionalTests')
+data.setCell(52, 3, 1);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testCheckPrimeZ')
+data.setCell(53, 2, 'testNG.CyclesTest')
+data.setCell(53, 3, 1);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testConvertSN4')
+data.setCell(54, 2, 'testNG.FunctionsTest')
+data.setCell(54, 3, 1);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testConvertNS4')
+data.setCell(55, 2, 'testNG.FunctionsTest')
+data.setCell(55, 3, 1);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testfindMax3')
+data.setCell(56, 2, 'testNG.ArrayTest')
+data.setCell(56, 3, 1);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testSumNum1')
+data.setCell(57, 2, 'testNG.CyclesTest')
+data.setCell(57, 3, 1);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'testSummMinus')
+data.setCell(58, 2, 'testNG.ConditionalTests')
+data.setCell(58, 3, 1);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'testtestBinSqr216')
+data.setCell(59, 2, 'testNG.CyclesTest')
+data.setCell(59, 3, 1);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'testToName2')
+data.setCell(60, 2, 'testNG.FunctionsTest')
+data.setCell(60, 3, 1);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'testfindMin1')
+data.setCell(61, 2, 'testNG.ArrayTest')
+data.setCell(61, 3, 1);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'testConvertNS721')
+data.setCell(62, 2, 'testNG.FunctionsTest')
+data.setCell(62, 3, 1);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'testSummPMM')
+data.setCell(63, 2, 'testNG.ConditionalTests')
+data.setCell(63, 3, 1);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'testSumm')
+data.setCell(64, 2, 'testNG.ConditionalTests')
+data.setCell(64, 3, 1);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'testFindGradeF2')
+data.setCell(65, 2, 'testNG.ConditionalTests')
+data.setCell(65, 3, 1);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'testConvertNS450')
+data.setCell(66, 2, 'testNG.FunctionsTest')
+data.setCell(66, 3, 1);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'testSumNum2_0')
+data.setCell(67, 2, 'testNG.CyclesTest')
+data.setCell(67, 3, 1);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'test2')
+data.setCell(68, 2, 'testNG.ConditionalTests')
+data.setCell(68, 3, 1);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'testMinIndex2')
+data.setCell(69, 2, 'testNG.ArrayTest')
+data.setCell(69, 3, 1);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'testToName')
+data.setCell(70, 2, 'testNG.FunctionsTest')
+data.setCell(70, 3, 1);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'testBinSqr21')
+data.setCell(71, 2, 'testNG.CyclesTest')
+data.setCell(71, 3, 1);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'testCheckPrimePM')
+data.setCell(72, 2, 'testNG.CyclesTest')
+data.setCell(72, 3, 1);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'testZero')
+data.setCell(73, 2, 'testNG.ConditionalTests')
+data.setCell(73, 3, 0);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'testMeasure1m')
+data.setCell(74, 2, 'testNG.FunctionsTest')
+data.setCell(74, 3, 0);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'testSummZero')
+data.setCell(75, 2, 'testNG.ConditionalTests')
+data.setCell(75, 3, 0);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'testSummMult')
+data.setCell(76, 2, 'testNG.ConditionalTests')
+data.setCell(76, 3, 0);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'testSummMMM')
+data.setCell(77, 2, 'testNG.ConditionalTests')
+data.setCell(77, 3, 0);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'testtestBinSqr2_15')
+data.setCell(78, 2, 'testNG.CyclesTest')
+data.setCell(78, 3, 0);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'testFindGradeE1')
+data.setCell(79, 2, 'testNG.ConditionalTests')
+data.setCell(79, 3, 0);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'testSumNum2')
+data.setCell(80, 2, 'testNG.CyclesTest')
+data.setCell(80, 3, 0);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'testConvertNS40')
+data.setCell(81, 2, 'testNG.FunctionsTest')
+data.setCell(81, 3, 0);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'testFindGradeB1')
+data.setCell(82, 2, 'testNG.ConditionalTests')
+data.setCell(82, 3, 0);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'testSumNum2m')
+data.setCell(83, 2, 'testNG.CyclesTest')
+data.setCell(83, 3, 0);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'testtestBinSqr27')
+data.setCell(84, 2, 'testNG.CyclesTest')
+data.setCell(84, 3, 0);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'testtestSelectSqr7')
+data.setCell(85, 2, 'testNG.CyclesTest')
+data.setCell(85, 3, 0);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'testfindMax4')
+data.setCell(86, 2, 'testNG.ArrayTest')
+data.setCell(86, 3, 0);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'testSummSumm')
+data.setCell(87, 2, 'testNG.ConditionalTests')
+data.setCell(87, 3, 0);
+data.setCell(88, 0, 88)
+data.setCell(88, 1, 'testRevrs2')
+data.setCell(88, 2, 'testNG.CyclesTest')
+data.setCell(88, 3, 0);
+data.setCell(89, 0, 89)
+data.setCell(89, 1, 'testConvertNS10')
+data.setCell(89, 2, 'testNG.FunctionsTest')
+data.setCell(89, 3, 0);
+data.setCell(90, 0, 90)
+data.setCell(90, 1, 'testFindGradeF1')
+data.setCell(90, 2, 'testNG.ConditionalTests')
+data.setCell(90, 3, 0);
+data.setCell(91, 0, 91)
+data.setCell(91, 1, 'testMeasure1')
+data.setCell(91, 2, 'testNG.FunctionsTest')
+data.setCell(91, 3, 0);
+data.setCell(92, 0, 92)
+data.setCell(92, 1, 'testSumNum1m')
+data.setCell(92, 2, 'testNG.CyclesTest')
+data.setCell(92, 3, 0);
+data.setCell(93, 0, 93)
+data.setCell(93, 1, 'testfindMax2')
+data.setCell(93, 2, 'testNG.ArrayTest')
+data.setCell(93, 3, 0);
+data.setCell(94, 0, 94)
+data.setCell(94, 1, 'testBinarySqr7')
+data.setCell(94, 2, 'testNG.CyclesTest')
+data.setCell(94, 3, 0);
+data.setCell(95, 0, 95)
+data.setCell(95, 1, 'testSelectSqr0')
+data.setCell(95, 2, 'testNG.CyclesTest')
+data.setCell(95, 3, 0);
+data.setCell(96, 0, 96)
+data.setCell(96, 1, 'testSelectSqr1')
+data.setCell(96, 2, 'testNG.CyclesTest')
+data.setCell(96, 3, 0);
+data.setCell(97, 0, 97)
+data.setCell(97, 1, 'testSumNum1_0')
+data.setCell(97, 2, 'testNG.CyclesTest')
+data.setCell(97, 3, 0);
+data.setCell(98, 0, 98)
+data.setCell(98, 1, 'testFindGradeE2')
+data.setCell(98, 2, 'testNG.ConditionalTests')
+data.setCell(98, 3, 0);
+data.setCell(99, 0, 99)
+data.setCell(99, 1, 'testSummPPP')
+data.setCell(99, 2, 'testNG.ConditionalTests')
+data.setCell(99, 3, 0);
+data.setCell(100, 0, 100)
+data.setCell(100, 1, 'testConvertNS400')
+data.setCell(100, 2, 'testNG.FunctionsTest')
+data.setCell(100, 3, 0);
+data.setCell(101, 0, 101)
+data.setCell(101, 1, 'testCheckPrimeP')
+data.setCell(101, 2, 'testNG.CyclesTest')
+data.setCell(101, 3, 0);
+data.setCell(102, 0, 102)
+data.setCell(102, 1, 'testSummMPP')
+data.setCell(102, 2, 'testNG.ConditionalTests')
+data.setCell(102, 3, 0);
+data.setCell(103, 0, 103)
+data.setCell(103, 1, 'testFindGradeA2')
+data.setCell(103, 2, 'testNG.ConditionalTests')
+data.setCell(103, 3, 0);
+data.setCell(104, 0, 104)
+data.setCell(104, 1, 'test3')
+data.setCell(104, 2, 'testNG.ConditionalTests')
+data.setCell(104, 3, 0);
+data.setCell(105, 0, 105)
+data.setCell(105, 1, 'testFactorial5')
+data.setCell(105, 2, 'testNG.CyclesTest')
+data.setCell(105, 3, 0);
+data.setCell(106, 0, 106)
+data.setCell(106, 1, 'testSummPPM')
+data.setCell(106, 2, 'testNG.ConditionalTests')
+data.setCell(106, 3, 0);
+window.suiteTableData['TestAll']= { tableData: data, tableDiv: 'times-div-TestAll'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 121 ms</span>
+              <div id="times-div-TestAll">
+              </div> <!-- times-div-TestAll -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.ArrayTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMaxIndex0</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMaxIndex2</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMaxIndex4</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMinIndex0</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMinIndex2</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMinIndex4</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testfindMax1</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testfindMax2</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testfindMax3</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testfindMax4</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testfindMin1</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testfindMin2</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testfindMin3</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testfindMin4</span>
+                <span class="method-start">43 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.ConditionalTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test1</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">73 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test3</span>
+                <span class="method-start">75 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test4</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindGrade102</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindGradeA1</span>
+                <span class="method-start">83 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindGradeA2</span>
+                <span class="method-start">85 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindGradeB1</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindGradeB2</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindGradeC1</span>
+                <span class="method-start">92 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindGradeC2</span>
+                <span class="method-start">96 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindGradeD1</span>
+                <span class="method-start">98 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindGradeD2</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindGradeE1</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindGradeE2</span>
+                <span class="method-start">103 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindGradeF1</span>
+                <span class="method-start">104 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindGradeF2</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindGradeMinus</span>
+                <span class="method-start">106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMult</span>
+                <span class="method-start">108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSum</span>
+                <span class="method-start">109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSumm</span>
+                <span class="method-start">111 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSummMMM</span>
+                <span class="method-start">113 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSummMMP</span>
+                <span class="method-start">113 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSummMPP</span>
+                <span class="method-start">114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSummMinus</span>
+                <span class="method-start">115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSummMult</span>
+                <span class="method-start">117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSummPMM</span>
+                <span class="method-start">117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSummPPM</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSummPPP</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSummSumm</span>
+                <span class="method-start">123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSummZZ3</span>
+                <span class="method-start">124 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSummZZZ</span>
+                <span class="method-start">126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSummZero</span>
+                <span class="method-start">128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testZero</span>
+                <span class="method-start">129 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.CyclesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testBinSqr20</span>
+                <span class="method-start">132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBinSqr21</span>
+                <span class="method-start">134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBinarySqr0</span>
+                <span class="method-start">135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBinarySqr1</span>
+                <span class="method-start">136 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBinarySqr16</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBinarySqr7</span>
+                <span class="method-start">148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckPrimeC</span>
+                <span class="method-start">149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckPrimeCM</span>
+                <span class="method-start">153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckPrimeP</span>
+                <span class="method-start">155 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckPrimeP1</span>
+                <span class="method-start">157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckPrimePM</span>
+                <span class="method-start">158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckPrimeZ</span>
+                <span class="method-start">159 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFactorial0</span>
+                <span class="method-start">160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFactorial1</span>
+                <span class="method-start">165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFactorial200</span>
+                <span class="method-start">166 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFactorial5</span>
+                <span class="method-start">170 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFactorialm</span>
+                <span class="method-start">172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindQuantity</span>
+                <span class="method-start">175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindSum</span>
+                <span class="method-start">177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRevrs1</span>
+                <span class="method-start">178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRevrs2</span>
+                <span class="method-start">180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectSqr0</span>
+                <span class="method-start">180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSelectSqr1</span>
+                <span class="method-start">181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSumNum1</span>
+                <span class="method-start">181 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSumNum1_0</span>
+                <span class="method-start">182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSumNum1m</span>
+                <span class="method-start">183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSumNum2</span>
+                <span class="method-start">183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSumNum2_0</span>
+                <span class="method-start">183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSumNum2m</span>
+                <span class="method-start">185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testtestBinSqr216</span>
+                <span class="method-start">185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testtestBinSqr27</span>
+                <span class="method-start">186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testtestBinSqr2_15</span>
+                <span class="method-start">188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testtestBinSqr2_17</span>
+                <span class="method-start">188 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testtestSelectSqr16</span>
+                <span class="method-start">189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testtestSelectSqr7</span>
+                <span class="method-start">190 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testNG.FunctionsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testConvertNS0</span>
+                <span class="method-start">191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertNS10</span>
+                <span class="method-start">193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertNS4</span>
+                <span class="method-start">193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertNS40</span>
+                <span class="method-start">194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertNS400</span>
+                <span class="method-start">195 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertNS405</span>
+                <span class="method-start">195 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertNS450</span>
+                <span class="method-start">197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertNS459</span>
+                <span class="method-start">198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertNS47</span>
+                <span class="method-start">199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertNS721</span>
+                <span class="method-start">200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertNS999</span>
+                <span class="method-start">201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertSN0</span>
+                <span class="method-start">202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertSN4</span>
+                <span class="method-start">207 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertSN40</span>
+                <span class="method-start">209 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertSN400</span>
+                <span class="method-start">210 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertSN450</span>
+                <span class="method-start">212 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertSN459</span>
+                <span class="method-start">215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertSN47</span>
+                <span class="method-start">217 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMeasure</span>
+                <span class="method-start">222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMeasure0</span>
+                <span class="method-start">226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMeasure1</span>
+                <span class="method-start">228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMeasure1m</span>
+                <span class="method-start">229 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToName</span>
+                <span class="method-start">230 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToName2</span>
+                <span class="method-start">231 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
